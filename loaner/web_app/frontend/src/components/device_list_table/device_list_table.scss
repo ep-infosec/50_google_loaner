@@ -1,0 +1,14 @@
+@import '../../scss_mixins/loaner-table';
+@import '../../../../../shared/scss/loaner-chips';
+
+.button-section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+// Our rows are clickable. We need to adjust the cursor to be a pointer when
+// hovering over the rows.
+.mat-row:hover {
+  cursor: pointer;
+}

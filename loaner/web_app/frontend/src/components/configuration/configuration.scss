@@ -1,0 +1,15 @@
+@import '../../app';
+@import '../../scss_mixins/configuration-shared';
+
+.configuration-container {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.submit-section {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}

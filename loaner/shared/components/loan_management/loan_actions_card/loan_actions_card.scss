@@ -1,0 +1,29 @@
+@import '../../../themes/standard';
+@import '../../../scss/loaner-chips';
+
+mat-card {
+  text-align: center;
+  width: 570px;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  margin: 12px;
+  width: 150px;
+}
+
+.date-container {
+  margin: 10px;
+}
+
+.device-status {
+  padding: 10px;
+  height: 130px;
+  width: 130px;
+}
+
+.mat-overdue {
+  color: #e53935;
+  font-size: 20px;
+  font-style: bold;
+}
